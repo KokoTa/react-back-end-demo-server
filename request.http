@@ -1,0 +1,17 @@
+POST http://localhost:7001/signIn HTTP/1.1
+Content-Type: application/json
+
+{
+  "username": "KokoTa1",
+  "password": "123"
+}
+
+###
+
+POST http://localhost:7001/login HTTP/1.1
+Content-Type: application/json
+
+{
+  "username": "KokoTa1",
+  "password": "123"
+}
